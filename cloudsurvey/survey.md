@@ -66,6 +66,18 @@
 > Building management APIs around containers rather than machines shifts the “primary key” of the data center from machine to application. This has many benefits: (1) it relieves application developers and operations teams from worrying about specific details of machines and operating systems; (2) it provides the infrastructure team flexibility to roll out new hardware and upgrade operating systems with minimal impact on running applications and their developers; and (3) it ties telemetry collected by the management system (e.g., metrics such as CPU and memory usage) to applications rather than machines, which dramatically improves application monitoring and introspection, especially when scale-up, machine failures, or maintenance cause application instances to move.
 
 
+[5] 分析了云计算的一些最佳实践,  如：弹性体系结构(Elastic Architecture)， 
+设计时考虑失败（Design for Failure), 高可用，性能，安保，监控等。该文对
+主要的公有云提供商如AWS, Rackspace, Google, Microsoft Azure, HP, IBM等进
+行了分析比较，也对用于构建私有云的Eucalyptus, OpenStack, CloudStack, 以
+及VMware等进行了分析比较。
+
+[6] 介绍了云计算中的网络虚拟化和软件定义网络技术发展现状，认为多云环境下的
+应用投递(Application delivery)是一个亟待解决的问题, 并介绍了与之相关的工
+作OpenADN。
+
+[7] 介绍了多云互联(Inter-Cloud)的技术现状和挑战。
+
 
 ## 参考文献
 
@@ -77,4 +89,11 @@ Google的工作：
 
 [3] Verma, Abhishek, et al. "Large-scale cluster management at Google with Borg." Proceedings of the Tenth European Conference on Computer Systems. ACM, 2015.
 
-[4]Schwarzkopf, Malte, et al. "Omega: flexible, scalable schedulers for large compute clusters." Proceedings of the 8th ACM European Conference on Computer Systems. ACM, 2013.
+[4] Schwarzkopf, Malte, et al. "Omega: flexible, scalable schedulers for large compute clusters." Proceedings of the 8th ACM European Conference on Computer Systems. ACM, 2013.
+
+[5] N. Serrano, G. Gallardo and J. Hernantes, "Infrastructure as a Service and Cloud Technologies," in IEEE Software, vol. 32, no. 2, pp. 30-36, Mar.-Apr. 2015.
+doi: 10.1109/MS.2015.43
+
+[6] R. Jain and S. Paul, "Network virtualization and software defined networking for cloud computing: a survey," in IEEE Communications Magazine, vol. 51, no. 11, pp. 24-31, November 2013.  doi: 10.1109/MCOM.2013.6658648
+
+[7] Toosi A N, Calheiros R N, Buyya R. Interconnected cloud computing environments: Challenges, taxonomy, and survey[J]. ACM Computing Surveys (CSUR), 2014, 47(1): 7.
