@@ -87,6 +87,7 @@
 [11] 本文研究了如何在云环境中，管理降低同一物理机上不同虚拟机的性能干扰问题。
 
 [12] 本文研究了在数据中心中，在满足延迟型服务的基础上尽可能高吞吐量地运行Batch作业，以此来提升数据中心的资源利用率。
+
 ## 参考文献
 
 [1] Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, and Matei Zaharia. 2010. A view of cloud computing. Commun. ACM 53, 4 (April 2010), 50-58. DOI=http://dx.doi.org/10.1145/1721654.1721672
